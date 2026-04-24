@@ -119,7 +119,7 @@ AI platform for commercial real estate loan servicing — RAG pipeline with FAIS
 
 <br/>
 
-**[SkillForge — Campus Coding Ecosystem](https://letskill.vercel.app)** &nbsp; ![Live](https://img.shields.io/badge/Live-2ea44f?style=flat)<br/>
+**[MINT.IT — Campus Coding Ecosystem](https://mints.it.com/)** &nbsp; ![Live](https://img.shields.io/badge/Live-2ea44f?style=flat)<br/>
 *React 19 · TypeScript · FastAPI · PostgreSQL · Redis · Celery · Docker · NVIDIA AI*<br/>
 Multi-tenant SaaS with 8-role RBAC, Docker-isolated code judge, NVIDIA-powered Socratic AI mentorship, and async LeetCode/HackerRank/GFG/CodeChef sync via Celery.
 
