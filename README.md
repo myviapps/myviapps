@@ -32,7 +32,7 @@
 
 <div align="center">
 
-| **15K+** | **40+** | **6** | **8+** |
+| **15K+** | **40+** | **7** | **8+** |
 |:---:|:---:|:---:|:---:|
 | Learners Trained | Institutions | Production Platforms | Years Experience |
 
@@ -78,6 +78,7 @@
 ![NVIDIA AI](https://img.shields.io/badge/NVIDIA_AI-76B900?style=flat&logo=nvidia&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-EA4335?style=flat)
 ![MCP](https://img.shields.io/badge/MCP_Tool_Calling-7C3AED?style=flat)
+![LiteLLM](https://img.shields.io/badge/LiteLLM-0EA5E9?style=flat)
 
 **Frontend & Backend**
 
@@ -113,9 +114,9 @@
 
 ### ◈ FEATURED PROJECTS
 
-**PropIQ — CRE Loan Intelligence** &nbsp; ![In Dev](https://img.shields.io/badge/In_Development-f78166?style=flat)<br/>
-*React · Node.js · MySQL · LangChain · OpenAI API · FAISS · MCP · XGBoost*<br/>
-AI platform for commercial real estate loan servicing — RAG pipeline with FAISS vector search, 4 MCP structured tools, XGBoost risk scoring (HIGH/MEDIUM/LOW), and AI copilot interface.
+**DATAVORE — AI Document Intelligence Platform** &nbsp; ![In Dev](https://img.shields.io/badge/In_Development-f78166?style=flat)<br/>
+*Next.js 16 · FastAPI · PostgreSQL · LiteLLM · Claude/GPT-4/Ollama · Tesseract OCR · Framer Motion*<br/>
+End-to-end AI document extraction platform — ingest PDFs, scanned images, DOCX, and ZIPs; extract structured field-level data with per-field confidence scoring, human-in-the-loop review, and colour-coded Excel export. Provider-agnostic AI layer (Claude, GPT-4, Ollama), Google Drive & SharePoint auto-sync, multi-tenant RBAC with 50 seats.
 
 <br/>
 
@@ -146,6 +147,12 @@ Academic tracker with proctored assessment engine — full-screen enforcement, t
 **[vijaysundar.dev — Personal Portfolio](https://vijaysundar.vercel.app)** &nbsp; ![Live](https://img.shields.io/badge/Live-2ea44f?style=flat)<br/>
 *React 18 · Vite · Vanilla CSS · Vercel*<br/>
 Data-driven portfolio with auto-calculated stats, typewriter effects, and intersection observer scroll animations. Component-driven, SEO-optimised, mobile-first.
+
+<br/>
+
+**PropIQ — CRE Loan Intelligence** &nbsp; ![In Dev](https://img.shields.io/badge/In_Development-f78166?style=flat)<br/>
+*React · Node.js · MySQL · LangChain · OpenAI API · FAISS · MCP · XGBoost*<br/>
+AI platform for commercial real estate loan servicing — RAG pipeline with FAISS vector search, 4 MCP structured tools, XGBoost risk scoring (HIGH/MEDIUM/LOW), and AI copilot interface.
 
 ---
 
