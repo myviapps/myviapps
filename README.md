@@ -22,7 +22,7 @@
 
 ### ◈ MY STORY
 
-> From classroom to codebase — I spent **8+ years** training **15,000+ learners** across 40+ institutions in programming fundamentals, then taught myself to build the AI systems I once only *taught about*.
+> From classroom to codebase — I spent **8+ years** training **50,000+ learners** across 40+ institutions in programming fundamentals, then taught myself to build the AI systems I once only *taught about*.
 >
 > Today I architect **RAG pipelines**, **MCP tool-calling agents**, and **agentic frameworks** for production systems across FinTech, EdTech, and enterprise SaaS. I don't just understand AI — I've built it under real constraints, with real users.
 
