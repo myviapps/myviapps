@@ -2,7 +2,7 @@
 
 # Hi, I'm Vijay Sundar 👋
 
-<a href="https://github.com/myviapps"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=RAG+%26+Agentic+AI+Architect;Educator+%E2%86%92+Developer;Full-Stack+Engineer;Technical+Trainer+%E2%80%94+15K%2B+Learners" alt="Typing SVG" /></a>
+<a href="https://github.com/myviapps"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=RAG+%26+Agentic+AI+Architect;Educator+%E2%86%92+Developer;Full-Stack+Engineer;Technical+Trainer+%E2%80%94+50K%2B+Learners" alt="Typing SVG" /></a>
 
 <br/>
 
@@ -32,7 +32,7 @@
 
 <div align="center">
 
-| **15K+** | **40+** | **7** | **8+** |
+| **50K+** | **40+** | **7** | **8+** |
 |:---:|:---:|:---:|:---:|
 | Learners Trained | Institutions | Production Platforms | Years Experience |
 
