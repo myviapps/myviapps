@@ -133,7 +133,7 @@ Reliability-first agentic architecture — 3-layer separation (Workflows / Agent
 <br/>
 
 **[VUKTI — Academic Intelligence Platform](https://vukti.in)** &nbsp; ![Live](https://img.shields.io/badge/Live-2ea44f?style=flat)<br/>
-*React · FastAPI · PostgreSQL · Supabase · Google Sheets API · JWT · RBAC*<br/>
+*React · FastAPI · PostgreSQL · UTHO · Docker · JWT · JUDGE0 · Monaco Editor · RBAC*<br/>
 Academic tracker with proctored assessment engine — full-screen enforcement, tab-blur detection, per-question analytics, and daily automated sync from LeetCode and HackerRank.
 
 <br/>
