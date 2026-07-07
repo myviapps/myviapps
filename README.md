@@ -132,7 +132,7 @@ Reliability-first agentic architecture — 3-layer separation (Workflows / Agent
 
 <br/>
 
-**[Vimysun — Academic Intelligence Platform](https://vimysun.vercel.app)** &nbsp; ![Live](https://img.shields.io/badge/Live-2ea44f?style=flat)<br/>
+**[VUKTI — Academic Intelligence Platform](https://vukti.in)** &nbsp; ![Live](https://img.shields.io/badge/Live-2ea44f?style=flat)<br/>
 *React · FastAPI · PostgreSQL · Supabase · Google Sheets API · JWT · RBAC*<br/>
 Academic tracker with proctored assessment engine — full-screen enforcement, tab-blur detection, per-question analytics, and daily automated sync from LeetCode and HackerRank.
 
