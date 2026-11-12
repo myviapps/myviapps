@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="412" height="236" viewBox="0 0 412 236" role="img" aria-label="FDE Flow Atlas: Interactive AI engineering curriculum. 133 topics on RAG, tool calling, and agent workflows, each taught through an animated flow diagram, with quizzes and 11 hands-on projects.">
+<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect x="0.5" y="0.5" width="411" height="235" rx="14" fill="#141412" stroke="#24231f"/>
+<text x="24" y="37" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.6" fill="#ff7a3d">04</text>
+<rect x="344" y="22" width="44" height="22" rx="11" fill="none" stroke="#ff7a3d"/>
+<text x="366.0" y="36.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" letter-spacing="0.6" fill="#ff7a3d">LIVE</text>
+<text x="24" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#f2f0eb">FDE Flow Atlas</text>
+<text x="24" y="100" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-style="italic" fill="#ffd2b8">Interactive AI engineering curriculum</text>
+<text x="24" y="128" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#c9c6bf">133 topics on RAG, tool calling, and agent workflows,</text>
+<text x="24" y="146" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#c9c6bf">each taught through an animated flow diagram, with</text>
+<text x="24" y="164" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#c9c6bf">quizzes and 11 hands-on projects.</text>
+<rect x="24" y="190" width="78" height="22" rx="11.0" fill="none" stroke="#3a3834"/><text x="63.0" y="204.6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#c9c6bf">JavaScript</text>
+<rect x="108" y="190" width="97" height="22" rx="11.0" fill="none" stroke="#3a3834"/><text x="156.5" y="204.6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#c9c6bf">SVG Animation</text>
+<rect x="211" y="190" width="90" height="22" rx="11.0" fill="none" stroke="#3a3834"/><text x="256.0" y="204.6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#c9c6bf">GitHub Pages</text>
+</svg>

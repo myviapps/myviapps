@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="412" height="236" viewBox="0 0 412 236" role="img" aria-label="Almaanac: Classroom coding analytics. One educator dashboard for coding activity across eight platforms, with per-platform async workers, leaderboards, at-risk cohorts, and 365-day heatmaps.">
+<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect x="0.5" y="0.5" width="411" height="235" rx="14" fill="#141412" stroke="#24231f"/>
+<text x="24" y="37" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.6" fill="#ff7a3d">03</text>
+<rect x="344" y="22" width="44" height="22" rx="11" fill="none" stroke="#ff7a3d"/>
+<text x="366.0" y="36.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" letter-spacing="0.6" fill="#ff7a3d">LIVE</text>
+<text x="24" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#f2f0eb">Almaanac</text>
+<text x="24" y="100" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-style="italic" fill="#ffd2b8">Classroom coding analytics</text>
+<text x="24" y="128" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#c9c6bf">One educator dashboard for coding activity across</text>
+<text x="24" y="146" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#c9c6bf">eight platforms, with per-platform async workers,</text>
+<text x="24" y="164" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#c9c6bf">leaderboards, at-risk cohorts, and 365-day heatmaps.</text>
+<rect x="24" y="190" width="103" height="22" rx="11.0" fill="none" stroke="#3a3834"/><text x="75.5" y="204.6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#c9c6bf">TanStack Start</text>
+<rect x="133" y="190" width="66" height="22" rx="11.0" fill="none" stroke="#3a3834"/><text x="166.0" y="204.6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#c9c6bf">Supabase</text>
+<rect x="205" y="190" width="78" height="22" rx="11.0" fill="none" stroke="#3a3834"/><text x="244.0" y="204.6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#c9c6bf">TypeScript</text>
+<rect x="289" y="190" width="66" height="22" rx="11.0" fill="none" stroke="#3a3834"/><text x="322.0" y="204.6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#c9c6bf">Recharts</text>
+</svg>

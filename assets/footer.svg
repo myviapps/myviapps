@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="828" height="156" viewBox="0 0 828 156" role="img" aria-label="Let's build something together. Book a call.">
+<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect x="0.5" y="0.5" width="827" height="155" rx="16" fill="#0a0a0a" stroke="#24231f"/>
+<text x="38" y="70" font-family="Georgia, 'Times New Roman', serif" font-size="36" fill="#f2f0eb">Let's build something <tspan font-style="italic" fill="#ff7a3d">together.</tspan></text>
+<text x="40" y="100" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#c9c6bf">Open to Forward Deployed Engineer, AI Solutions, and Technical Enablement roles.</text>
+<text x="40" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#8d8a83">vijaysundarn@gmail.com</text>
+<rect x="638" y="56" width="150" height="44" rx="22" fill="#ff7a3d"/>
+<text x="713" y="83" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#0a0a0a">Book a call</text>
+</svg>

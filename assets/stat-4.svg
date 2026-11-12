@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="204" height="112" viewBox="0 0 204 112" role="img" aria-label="8+ years teaching">
+<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect x="0.5" y="0.5" width="203" height="111" rx="12" fill="#141412" stroke="#24231f"/>
+<text x="20" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#f2f0eb">8<tspan fill="#ff7a3d">+</tspan></text>
+<text x="21" y="90" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.2" fill="#8d8a83">YEARS TEACHING</text>
+</svg>

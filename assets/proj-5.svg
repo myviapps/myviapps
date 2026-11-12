@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="412" height="236" viewBox="0 0 412 236" role="img" aria-label="ILFU: Open-source local meeting transcriber. Runs fully on your machine: no API keys, no accounts, no bot in the call. Loopback audio capture, on-device speech-to-text, and local LLM summaries.">
+<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect x="0.5" y="0.5" width="411" height="235" rx="14" fill="#141412" stroke="#24231f"/>
+<text x="24" y="37" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.6" fill="#ff7a3d">05</text>
+<rect x="286" y="22" width="102" height="22" rx="11" fill="none" stroke="#3a3834"/>
+<text x="337.0" y="36.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" letter-spacing="0.6" fill="#8d8a83">IN DEVELOPMENT</text>
+<text x="24" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#f2f0eb">ILFU</text>
+<text x="24" y="100" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-style="italic" fill="#ffd2b8">Open-source local meeting transcriber</text>
+<text x="24" y="128" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#c9c6bf">Runs fully on your machine: no API keys, no accounts,</text>
+<text x="24" y="146" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#c9c6bf">no bot in the call. Loopback audio capture, on-device</text>
+<text x="24" y="164" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#c9c6bf">speech-to-text, and local LLM summaries.</text>
+<rect x="24" y="190" width="53" height="22" rx="11.0" fill="none" stroke="#3a3834"/><text x="50.5" y="204.6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#c9c6bf">Python</text>
+<rect x="83" y="190" width="103" height="22" rx="11.0" fill="none" stroke="#3a3834"/><text x="134.5" y="204.6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#c9c6bf">faster-whisper</text>
+<rect x="192" y="190" width="84" height="22" rx="11.0" fill="none" stroke="#3a3834"/><text x="234.0" y="204.6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#c9c6bf">whisper.cpp</text>
+<rect x="282" y="190" width="53" height="22" rx="11.0" fill="none" stroke="#3a3834"/><text x="308.5" y="204.6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#c9c6bf">WASAPI</text>
+</svg>

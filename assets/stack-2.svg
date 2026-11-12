@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="412" height="176" viewBox="0 0 412 176" role="img" aria-label="BUILD: Python, TypeScript, JavaScript, Java, C#, SQL, React, TanStack Start, Tailwind CSS, FastAPI, Node.js, .NET 8">
+<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect x="0.5" y="0.5" width="411" height="175" rx="14" fill="#141412" stroke="#24231f"/>
+<text x="24" y="37" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.6" fill="#ff7a3d">BUILD</text>
+<rect x="24" y="58" width="61" height="26" rx="13.0" fill="none" stroke="#3a3834"/><text x="54.5" y="74.96" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#c9c6bf">Python</text>
+<rect x="91" y="58" width="88" height="26" rx="13.0" fill="none" stroke="#3a3834"/><text x="135.0" y="74.96" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#c9c6bf">TypeScript</text>
+<rect x="185" y="58" width="88" height="26" rx="13.0" fill="none" stroke="#3a3834"/><text x="229.0" y="74.96" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#c9c6bf">JavaScript</text>
+<rect x="279" y="58" width="47" height="26" rx="13.0" fill="none" stroke="#3a3834"/><text x="302.5" y="74.96" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#c9c6bf">Java</text>
+<rect x="332" y="58" width="34" height="26" rx="13.0" fill="none" stroke="#3a3834"/><text x="349.0" y="74.96" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#c9c6bf">C#</text>
+<rect x="24" y="92" width="40" height="26" rx="13.0" fill="none" stroke="#3a3834"/><text x="44.0" y="108.96" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#c9c6bf">SQL</text>
+<rect x="70" y="92" width="54" height="26" rx="13.0" fill="none" stroke="#3a3834"/><text x="97.0" y="108.96" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#c9c6bf">React</text>
+<rect x="130" y="92" width="115" height="26" rx="13.0" fill="none" stroke="#3a3834"/><text x="187.5" y="108.96" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#c9c6bf">TanStack Start</text>
+<rect x="251" y="92" width="102" height="26" rx="13.0" fill="none" stroke="#3a3834"/><text x="302.0" y="108.96" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#c9c6bf">Tailwind CSS</text>
+<rect x="24" y="126" width="68" height="26" rx="13.0" fill="none" stroke="#3a3834"/><text x="58.0" y="142.96" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#c9c6bf">FastAPI</text>
+<rect x="98" y="126" width="68" height="26" rx="13.0" fill="none" stroke="#3a3834"/><text x="132.0" y="142.96" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#c9c6bf">Node.js</text>
+<rect x="172" y="126" width="61" height="26" rx="13.0" fill="none" stroke="#3a3834"/><text x="202.5" y="142.96" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#c9c6bf">.NET 8</text>
+</svg>

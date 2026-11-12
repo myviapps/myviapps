@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="412" height="236" viewBox="0 0 412 236" role="img" aria-label="Forward: Presenter and live-teaching copilot. Live transcription and AI speaker notes in a private presenter-only window, with a five-provider fallback chain and Whisper running on an AMD NPU.">
+<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect x="0.5" y="0.5" width="411" height="235" rx="14" fill="#141412" stroke="#24231f"/>
+<text x="24" y="37" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.6" fill="#ff7a3d">06</text>
+<rect x="291" y="22" width="97" height="22" rx="11" fill="none" stroke="#3a3834"/>
+<text x="339.5" y="36.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" letter-spacing="0.6" fill="#8d8a83">LOCAL INSTALL</text>
+<text x="24" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#f2f0eb">Forward</text>
+<text x="24" y="100" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-style="italic" fill="#ffd2b8">Presenter and live-teaching copilot</text>
+<text x="24" y="128" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#c9c6bf">Live transcription and AI speaker notes in a private</text>
+<text x="24" y="146" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#c9c6bf">presenter-only window, with a five-provider fallback</text>
+<text x="24" y="164" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#c9c6bf">chain and Whisper running on an AMD NPU.</text>
+<rect x="24" y="190" width="53" height="22" rx="11.0" fill="none" stroke="#3a3834"/><text x="50.5" y="204.6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#c9c6bf">C# WPF</text>
+<rect x="83" y="190" width="53" height="22" rx="11.0" fill="none" stroke="#3a3834"/><text x="109.5" y="204.6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#c9c6bf">.NET 8</text>
+<rect x="142" y="190" width="78" height="22" rx="11.0" fill="none" stroke="#3a3834"/><text x="181.0" y="204.6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#c9c6bf">Claude API</text>
+<rect x="226" y="190" width="90" height="22" rx="11.0" fill="none" stroke="#3a3834"/><text x="271.0" y="204.6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#c9c6bf">Whisper ONNX</text>
+</svg>
