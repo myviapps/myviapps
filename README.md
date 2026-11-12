@@ -5,7 +5,7 @@
 <p>
 <a href="https://vijay-sundar-nagamalla.vercel.app/Vijay_Sundar_Nagamalla_Resume.pdf"><img src="assets/btn-resume.svg" width="160" alt="Résumé (PDF)" /></a>
 <a href="https://vijay-sundar-nagamalla.vercel.app"><img src="assets/btn-portfolio.svg" width="160" alt="Portfolio" /></a>
-<a href="https://linkedin.com/in/vijaysundarn"><img src="assets/btn-linkedin.svg" width="160" alt="LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/vijaysundarn/"><img src="assets/btn-linkedin.svg" width="160" alt="LinkedIn" /></a>
 <a href="https://cal.com/vijay-sundar-nagumalla"><img src="assets/btn-call.svg" width="160" alt="Book a call" /></a>
 <a href="mailto:vijaysundarn@gmail.com"><img src="assets/btn-email.svg" width="160" alt="Email" /></a>
 </p>

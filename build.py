@@ -55,18 +55,19 @@ def chips(items, x0, y0, max_w, size=10, h=22, pad=8, gap=6, row_gap=8):
 # ── Header ───────────────────────────────────────────────────────────────────
 def header():
     w, h = 828, 320
-    cols, rows, pitch, r = 25, 20, 11, 2.6
+    cols, rows, pitch, r = 25, 20, 11, 2.8
     gx, gy = w - 40 - (cols - 1) * pitch, 50
     dots = []
     for c in range(cols):
         col = "".join(
-            f'<circle cx="{gx + c * pitch}" cy="{gy + rw * pitch}" r="{r}"/>' for rw in range(rows)
+            f'<circle cx="{gx + c * pitch}" cy="{gy + rw * pitch}" r="{r}" fill="{ACC}"/>' for rw in range(rows)
         )
-        dots.append(f'<g class="col" style="animation-delay:{c * 0.07:.2f}s">{col}</g>')
+        anim = f'<animate attributeName="opacity" values="0.55;1;0.55" dur="3.6s" begin="{c * 0.12:.2f}s" repeatCount="indefinite"/>'
+        dots.append(f'<g class="col" style="animation-delay:{c * 0.12:.2f}s">{anim}{col}</g>')
     last_x, last_y = gx + (cols - 1) * pitch, gy + (rows - 1) * pitch
     style = (
-        f".col{{fill:#5a5852;animation:fill 0.9s ease-out backwards}}"
-        f"@keyframes fill{{from{{fill:{DOT_OFF}}}}}"
+        f".col{{fill:{ACC};animation:wave 3.6s ease-in-out infinite}}"
+        f"@keyframes wave{{0%,100%{{fill:{ACC};opacity:.6}}50%{{fill:{ACC_LIT};opacity:1}}}}"
         f".now{{animation:pulse 2.4s ease-in-out infinite}}"
         f"@keyframes pulse{{50%{{opacity:.25}}}}"
     )
@@ -79,10 +80,10 @@ def header():
 <text x="40" y="258" font-family="{SANS}" font-size="15" fill="{FG}">Now I build the software I used to teach about.</text>
 <text x="40" y="294" font-family="{MONO}" font-size="10.5" letter-spacing="1.2" fill="{MUTED}">AI SOLUTIONS  /  FULL-STACK  /  TECHNICAL ENABLEMENT</text>
 {''.join(dots)}
-<circle cx="{last_x}" cy="{last_y}" r="{r}" fill="{BG}"/>
-<circle class="now" cx="{last_x}" cy="{last_y}" r="{r + 0.6}" fill="{ACC}"/>
-<text x="{w - 40}" y="294" text-anchor="end" font-family="{MONO}" font-size="10.5" letter-spacing="1.2" fill="{MUTED}">ONE DOT = 100 LEARNERS</text>"""
-    write("header.svg", svg(w, h, body, style, "Vijay Sundar Nagamalla. Open to Forward Deployed Engineer roles."))
+<circle cx="{last_x}" cy="{last_y}" r="{r + 1}" fill="{BG}"/>
+<circle class="now" cx="{last_x}" cy="{last_y}" r="{r + 1}" fill="{ACC_LIT}"/>
+<text x="{w - 40}" y="294" text-anchor="end" font-family="{MONO}" font-size="10.5" letter-spacing="1.2" fill="{ACC}">50,000 LEARNERS <tspan fill="{MUTED}">· 1 DOT = 100</tspan></text>"""
+    write("header.svg", svg(w, h, body, style, "Vijay Sundar Nagamalla. Open to Forward Deployed Engineer roles. 50,000 learners trained."))
 
 
 # ── Buttons ──────────────────────────────────────────────────────────────────
