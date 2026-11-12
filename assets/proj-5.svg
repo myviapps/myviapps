@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="412" height="236" viewBox="0 0 412 236" role="img" aria-label="ILFU: Open-source local meeting transcriber. Runs fully on your machine: no API keys, no accounts, no bot in the call. Loopback audio capture, on-device speech-to-text, and local LLM summaries.">
-<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}circle[class^='b']{fill:#ff7a3d!important;opacity:1!important}}</style>
 <rect x="0.5" y="0.5" width="411" height="235" rx="14" fill="#141412" stroke="#24231f"/>
 <text x="24" y="37" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.6" fill="#ff7a3d">05</text>
 <rect x="286" y="22" width="102" height="22" rx="11" fill="none" stroke="#3a3834"/>

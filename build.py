@@ -21,7 +21,7 @@ SANS = "-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
 MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
 MONO_W = 0.62  # monospace advance per em, rounded up so chips never clip
 
-REDUCED = "@media (prefers-reduced-motion: reduce){*{animation:none!important}}"
+REDUCED = f"@media (prefers-reduced-motion: reduce){{*{{animation:none!important}}circle[class^='b']{{fill:{ACC}!important;opacity:1!important}}}}"
 
 
 def svg(w, h, body, style="", label=""):
@@ -53,24 +53,59 @@ def chips(items, x0, y0, max_w, size=10, h=22, pad=8, gap=6, row_gap=8):
 
 
 # ── Header ───────────────────────────────────────────────────────────────────
+def dot_ranks(n=500):
+    """Identical LCG seeded shuffle as src/lib/story-math.js for matching random fill pattern."""
+    order = list(range(n))
+    seed = 7
+    for i in range(n - 1, 0, -1):
+        seed = (seed * 9301 + 49297) % 233280
+        j = int((seed / 233280.0) * (i + 1))
+        order[i], order[j] = order[j], order[i]
+    rank = [0] * n
+    for r, dot in enumerate(order):
+        rank[dot] = r
+    return rank
+
+
 def header():
     w, h = 828, 320
-    cols, rows, pitch, r = 25, 20, 11, 2.8
+    cols, rows, pitch, r = 25, 20, 11, 2.7
     gx, gy = w - 40 - (cols - 1) * pitch, 50
+    total_dots = cols * rows
+    ranks = dot_ranks(total_dots)
+
+    num_buckets = 50
+    css_rules = [
+        f".now{{animation:pulse 2.4s ease-in-out infinite}}@keyframes pulse{{50%{{opacity:.25}}}}"
+    ]
+    for k in range(num_buckets):
+        p0 = round((k / num_buckets) * 56.0, 1)
+        p_flash = round(p0 + 1.2, 1)
+        p_lit = round(p0 + 2.4, 1)
+        if k == 0:
+            css_rules.append(
+                f".b{k}{{animation:a{k} 8s infinite}}"
+                f"@keyframes a{k}{{0%{{fill:{ACC_LIT};opacity:1}}2.4%,85%{{fill:{ACC};opacity:.95}}94%,100%{{fill:{DOT_OFF};opacity:.3}}}}"
+            )
+        else:
+            css_rules.append(
+                f".b{k}{{animation:a{k} 8s infinite}}"
+                f"@keyframes a{k}{{0%,{p0}%{{fill:{DOT_OFF};opacity:.3}}{p_flash}%{{fill:{ACC_LIT};opacity:1}}{p_lit}%,85%{{fill:{ACC};opacity:.95}}94%,100%{{fill:{DOT_OFF};opacity:.3}}}}"
+            )
+
     dots = []
-    for c in range(cols):
-        col = "".join(
-            f'<circle cx="{gx + c * pitch}" cy="{gy + rw * pitch}" r="{r}" fill="{ACC}"/>' for rw in range(rows)
+    for i in range(total_dots):
+        c = i % cols
+        rw = i // cols
+        b = min(num_buckets - 1, (ranks[i] * num_buckets) // total_dots)
+        cx = gx + c * pitch
+        cy = gy + rw * pitch
+        dots.append(
+            f'<circle class="b{b}" cx="{cx}" cy="{cy}" r="{r}" fill="{DOT_OFF}"/>'
         )
-        anim = f'<animate attributeName="opacity" values="0.55;1;0.55" dur="3.6s" begin="{c * 0.12:.2f}s" repeatCount="indefinite"/>'
-        dots.append(f'<g class="col" style="animation-delay:{c * 0.12:.2f}s">{anim}{col}</g>')
+
     last_x, last_y = gx + (cols - 1) * pitch, gy + (rows - 1) * pitch
-    style = (
-        f".col{{fill:{ACC};animation:wave 3.6s ease-in-out infinite}}"
-        f"@keyframes wave{{0%,100%{{fill:{ACC};opacity:.6}}50%{{fill:{ACC_LIT};opacity:1}}}}"
-        f".now{{animation:pulse 2.4s ease-in-out infinite}}"
-        f"@keyframes pulse{{50%{{opacity:.25}}}}"
-    )
+    style = "".join(css_rules)
     body = f"""<rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="16" fill="{BG}" stroke="{BR}"/>
 <circle class="now" cx="44" cy="50" r="4" fill="{ACC}"/>
 <text x="58" y="54" font-family="{MONO}" font-size="11" letter-spacing="1.6" fill="{SOFT}">OPEN TO FORWARD DEPLOYED ENGINEER ROLES</text>

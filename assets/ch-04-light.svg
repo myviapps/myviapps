@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="828" height="76" viewBox="0 0 828 76" role="img" aria-label="Chapter 04: Connect">
-<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}circle[class^='b']{fill:#ff7a3d!important;opacity:1!important}}</style>
 <text x="2" y="16" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.6" fill="#c2410c">CHAPTER 04</text>
 <text x="0" y="56" font-family="Georgia, 'Times New Roman', serif" font-size="36" fill="#1f2328">Connect<tspan fill="#c2410c">.</tspan><tspan dx="12" font-size="22" font-style="italic" fill="#59636e">let's talk</tspan></text>
 <rect x="0" y="74" width="828" height="1" fill="#d1d9e0"/>
